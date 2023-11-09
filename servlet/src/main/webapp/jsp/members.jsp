@@ -20,7 +20,6 @@
     <th>age</th>
     </thead>
     <tbody>
-
 <%
  for (Member member : members) {
  out.write(" <tr>");
@@ -30,7 +29,6 @@
  out.write(" </tr>");
  }
 %>
-
     </tbody>
 </table>
 </body>
